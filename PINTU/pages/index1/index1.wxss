@@ -1,0 +1,34 @@
+/*
+
+pages/index1/index1.wxss */
+
+
+.init {
+       text-align: center;
+   }
+
+   .init button {
+       width: 80%;
+       margin: 76rpx;
+   }
+
+   .name {
+       width: 750rpx;
+       height: 200rpx;
+       color: #1BC3B8;
+       text-align: center;
+       letter-spacing: 20rpx;
+       font-size: 90rpx;
+       font-weight: bold;
+       padding-top: 60rpx;
+   }
+
+   .userinfo-avatar {
+       width: 344rpx;
+       height: 344rpx;
+       padding-left: 190rpx;
+   }
+
+   .img {
+       height: 400rpx;
+   }

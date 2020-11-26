@@ -1,0 +1,27 @@
+{
+  "pages": [
+    "pages/index1/index1",
+    "pages/index/index",
+    "pages/index2/index2"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#1BC3B8",
+    "navigationBarTitleText": "拼一拼",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index1/index1",
+      "text": "首页",
+      "iconPath": "icons/p1.png",
+      "selectedIconPath": "icons/p2.png"
+    },
+    {
+      "pagePath": "pages/index/index",
+      "text": "游戏",
+      "iconPath": "icons/p3.png",
+      "selectedIconPath": "icons/p4.png"
+    }]
+  },
+  "sitemapLocation": "sitemap.json"
+}

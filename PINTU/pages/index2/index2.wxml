@@ -1,0 +1,9 @@
+<!--pages/index2/index2.wxml-->
+<view class="ttt">
+    <text>
+    这是一个九宫格拼图游戏
+    点击“Start”即可开始游戏
+    依照示例图片把图片拼回原样
+    如果想放弃的话，可以点“Quit”哦！
+</text>
+</view>

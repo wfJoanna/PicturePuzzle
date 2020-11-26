@@ -1,0 +1,12 @@
+<view class="name">
+    <text>拼图游戏</text>
+</view>
+
+<view class="img">
+    <image class="userinfo-avatar" src="../../icons/a.jpg"></image>
+</view>
+
+<view class="init">
+    <button bindtap="bindViewTap">玩游戏</button>
+    <button bindtap="instruction">游戏说明</button>
+</view>

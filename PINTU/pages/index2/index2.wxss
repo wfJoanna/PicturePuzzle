@@ -1,0 +1,14 @@
+/*
+
+pages/index2/index2.wxss */
+
+.ttt {
+       border: 4rpx solid black;
+       width: 550rpx;
+       height: 300rpx;
+       border-radius: 50rpx;
+       background-color: #FFFFFF;
+       margin-left: 100rpx;
+       margin-top: 300rpx;
+       text-align: center;
+   }

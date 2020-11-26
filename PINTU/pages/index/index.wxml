@@ -1,0 +1,26 @@
+<!--index1.wxml-->
+<view class="title">
+    <text>示例图片</text>
+    <image class="userinfo-avatar" src="../../icons/a.jpg" background-size="cover"></image>
+</view>
+
+<view class="container">
+    <view class="row" wx:for="{{num}}" wx:for-item="item" wx:for-index="index">
+        <button class="btn" catchtap="Move" data-item="{{item}}" data-index="{{index}}">
+            <image class="img {{item === 9?'active':''}}" src="../../images/{{item}}.gif">
+            </image>
+        </button>
+        <!--这一块有个for循环数组num，产生9个button-->
+        <!--每个button都有一张图片，有对应的index和item，index是数组下标，item是数组元素-->
+        <!--通过三元运算符，如果button的item为9，则会有active样式，active样式就是让这个图片透明-->
+        <!--catchtap表示当用户点击该组件的时候，会在该页面对应的Page中找到相应的事件处理函数。这里就是用户点击button时触发Move函数-->
+    </view>
+</view>
+
+<view class="init">
+    <text class="time">{{time}}秒   {{step}}步</text>
+    <!--点击开始按钮，就执行timeBegin函数-->
+    <button catchtap='timeBegin' type="primary" plain="Boolean">Start</button>
+    <!--点击放弃按钮，就执行timeStop函数-->
+    <button catchtap='timeStop' type="warn" plain="Boolean">Quit</button>
+</view>
